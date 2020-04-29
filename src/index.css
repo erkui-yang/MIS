@@ -1,3 +1,7 @@
+button, html [type=button], [type=reset], [type=submit] {
+      -webkit-appearance: button;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,69 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.username p {
+  float: left;
+}
+.username input {
+  width: 200px;
+  outline: none;
+  border-radius: 5px;
+}
+.password p {
+  float: left;
+}
+.password input {
+  width: 200px;
+  outline: none;
+  border-radius: 5px;
+}
+.submit {
+  font-size: 30px;
+}
+.submit input {
+  margin-left: 45px;
+  width: 50px;
+  height: 26px;
+  border-radius: 7px;
+  outline: none;
+}
+
+
+.text span {
+  margin-right: 30px;
+}
+.text input {
+  margin-right: 100px;
+  width: 80px;
+  border-radius: 5px;
+  outline: none;
+}
+.number span {
+  margin-right: 30px;
+}
+.number input {
+  margin-right: 25px;
+  width: 43px;
+  border-radius: 5px;
+  outline: none;
+}
+.top input {
+  border-radius: 5px;
+  outline: none;
+}
+
+.text,
+.number,
+.top {
+  padding-bottom: 20px;
+}
+
+.buttom input {
+  font-size: 14px;
+  margin-right: 10px;
+  width: 70px;
+  border-radius: 5px;
+  outline: none;
 }
